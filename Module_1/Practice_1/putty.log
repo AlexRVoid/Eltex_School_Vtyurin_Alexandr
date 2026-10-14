@@ -8796,4 +8796,516 @@ eltex-pg1-v11@eltex-2026-autumn:~$ screen -lsS -d vi report_part1.txt1162556.top
 eltex-pg1-v11@eltex-2026-autumn:~$ logout
 =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.10.14 14:45:45 =~=~=~=~=~=~=~=~=~=~=~=
 Using username "eltex-pg1-v11".
+eltex-pg1-v11@217.71.138.1's password: =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.10.14 17:16:14 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "eltex-pg1-v11".
 eltex-pg1-v11@217.71.138.1's password: 
+Linux eltex-2026-autumn 6.1.0-53-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.187-1 (2026-09-07) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Oct 14 13:49:58 2026 from 5.44.168.252
+eltex-pg1-v11@eltex-2026-autumn:~$ eltex-pg1-v11@eltex-2026-autumn:~$ screen -S "'whoanmi"' _part2"
+eltex-pg1-v11@eltex-2026-autumn:~$  screen -ls
+There is a screen on:
+1261975.'whoami'_part2  (10/14/2026 05:30:26 PM)(Attached)
+1 Socket in /run/screen/S-eltex-pg1-v11.
+eltex-pg1-v11@eltex-2026-autumn:~$ export TERM=dumbexport TERM=dumb
+eltex-pg1-v11@eltex-2026-autumn:~$ S script -q "${USER}_part.log"
+eltex-pg1-v11@eltex-2026-autumn:~$    bash
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci        
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb        
+lsblk        lsfd         lsirq        lsmem        lsof         
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci        
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb        
+lsblk        lsfd         lsirq        lsmem        lsof         
+eltex-pg1-v11@eltex-2026-autumn:~$ ls  CLEAR
+bash: CLEAR: command not found
+eltex-pg1-v11@eltex-2026-autumn:~$ clear
+eltex-pg1-v11@eltex-2026-autumn:~$ clear
+eltex-pg1-v11@eltex-2026-autumn:~$ cls
+bash: cls: command not found
+eltex-pg1-v11@eltex-2026-autumn:~$ ^C
+eltex-pg1-v11@eltex-2026-autumn:~$ clsear
+eltex-pg1-v11@eltex-2026-autumn:~$ clear
+eltex-pg1-v11@eltex-2026-autumn:~$ clears  earCLEARlogoutscreen -lsS 1162556.top -X quit && screen -S 1157855.-d -X quiteltex-pg1-v11@eltex-2026-autumn:~$ screen -ls                                                   eltex-pg1-v11@eltex-2026-autumn:~$ screen -lslogout    CLEAR clears  ear         exit
+exit
+eltex-pg1-v11@eltex-2026-autumn:~$ bashlogoutscreen -ls
+There is a screen on:
+1261975.'whoami'_part2  (10/14/2026 05:30:26 PM)(Attached)
+1 Socket in /run/screen/S-eltex-pg1-v11.
+eltex-pg1-v11@eltex-2026-autumn:~$ screen -ls          clear
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci        
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb        
+lsblk        lsfd         lsirq        lsmem        lsof         
+eltex-pg1-v11@eltex-2026-autumn:~$ ls  $HIST
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE      
+eltex-pg1-v11@eltex-2026-autumn:~$ $HIST           echo $HISTFILESIZE
+2000
+eltex-pg1-v11@eltex-2026-autumn:~$     cd -  d ~/.*
+bash: cd: -d: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+eltex-pg1-v11@eltex-2026-autumn:~$ cd -d ~/.* ~/.*  ~/.* ~/.* 
+bash: cd: too many arguments
+eltex-pg1-v11@eltex-2026-autumn:~$ lscd ~/.*-d ~/.* -d ~/.*  -d ~/.* l -d ~/.*s -d ~/.*
+/home/eltex-pg1-v11/.bash_history  /home/eltex-pg1-v11/.config   /home/eltex-pg1-v11/.viminfo
+/home/eltex-pg1-v11/.bash_logout   /home/eltex-pg1-v11/.lesshst
+/home/eltex-pg1-v11/.bashrc   /home/eltex-pg1-v11/.profile
+eltex-pg1-v11@eltex-2026-autumn:~$ export HISTTIMEFORMAT="%F %T "
+eltex-pg1-v11@eltex-2026-autumn:~$ echo $HISTTIMEFORMAT
+%F %T
+eltex-pg1-v11@eltex-2026-autumn:~$ history 10
+   92  2026-10-14 17:39:23 bash
+   93  2026-10-14 17:41:31 screen -ls
+   94  2026-10-14 17:41:36 clear
+   95  2026-10-14 17:44:21 echo $HISTFILESIZE
+   96  2026-10-14 17:45:55 cd -d ~/.*
+   97  2026-10-14 17:46:09 cd ~/.*
+   98  2026-10-14 17:46:19 ls -d ~/.*
+   99  2026-10-14 17:48:21 export HISTTIMEFORMAT="%F %T "
+  100  2026-10-14 17:48:42 echo $HISTTIMEFORMAT
+  101  2026-10-14 17:49:45 history 10
+eltex-pg1-v11@eltex-2026-autumn:~$    date
+Wed Oct 14 05:50:19 PM +07 2026
+eltex-pg1-v11@eltex-2026-autumn:~$ history | tail -n 3
+  101  2026-10-14 17:49:45 history 10
+  102  2026-10-14 17:50:19 date
+  103  2026-10-14 17:51:21 history | tail -n 3
+eltex-pg1-v11@eltex-2026-autumn:~$ tail -n 3 ~/.bash_history
+cls
+clear
+exit
+eltex-pg1-v11@eltex-2026-autumn:~$ export PROMPT_COMMAND="history -a"
+eltex-pg1-v11@eltex-2026-autumn:~$ export PROMPT_COMMAND="history -a"tail -n 3 ~/.bash_history         history | tail -n 3      date               history 10echo $HISTTIMEFORMAT              PROMPT_COMMAND
+history -a
+eltex-pg1-v11@eltex-2026-autumn:~$ echo $PROMPT_COMMANDxport PROMPT_COMMAND="history -a"tail -n 3 ~/.bash_history         history | tail -n 3      date                     ls -a
+.   .bash_history  .bashrc  eltex-pg1-v11_part.log  .profile      .viminfo
+..  .bash_logout   .config  .lesshst    report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ ls -aecho $PROMPT_COMMANDxport PROMPT_COMMAND="history -a"tail -n 3 ~/.bash_history         history | tail -n 3      tail -n 3 ~/.bash_historyhistory | tail -n 3      
+  106  2026-10-14 17:52:27 echo $PROMPT_COMMAND
+  107  2026-10-14 17:53:19 ls -a
+  108  2026-10-14 17:53:30 history | tail -n 3
+eltex-pg1-v11@eltex-2026-autumn:~$ history | tail -n 3ls -a              echo $PROMPT_COMMANDls -a               echo $PROMPT_COMMANDxport PROMPT_COMMAND="history -a"tail -n 3 ~/.bash_history         history | tail -n 3      tail -n 3 ~/.bash_history
+ls -a
+#1791975210
+history | tail -n 3
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+eltex-pg1-v11@eltex-2026-autumn:~$ DATE=$(date +%F)
+eltex-pg1-v11@eltex-2026-autumn:~$       echo dat   $DAR TE
+2026-10-14
+eltex-pg1-v11@eltex-2026-autumn:~$ <      <       <       <       <       <       <       <       <       <       <       <       <      <      <      <     <     <     <     <     <     <     <     <     <    <    <   <   <  <  <  <  <  <  < < <    DATE   eltex-pg1-v11@eltex-2026-autumn:~$   DATE                                         TIME=$(date +%T)
+eltex-pg1-v11@eltex-2026-autumn:~$ TIME=$(date +%T)echo $DATE              TIME
+17:57:08
+eltex-pg1-v11@eltex-2026-autumn:~$   DARE  TE_TIME=""$"D"A"T"E" "$"T"I"M"E"eltex-pg1-v11@eltex-2026-autumn:~$ DATE_TIME="$DATE $TIME"
+eltex-pg1-v11@eltex-2026-autumn:~$ DATE_TIME="$DATE $TIME"echo $TIME                 DATE_TIME
+2026-10-14 17:57:08
+eltex-pg1-v11@eltex-2026-autumn:~$ ls -d /bin/*{ [0-9]* /sbin/*[0-9]*
+/bin/addr2line  /bin/pod2usage       /bin/x86_64-linux-gnu-gp-archive
+/bin/b2sum/bin/py3clean        /bin/x86_64-linux-gnu-gp-collect-app
+/bin/base32/bin/py3compile      /bin/x86_64-linux-gnu-gp-display-html
+/bin/base64/bin/py3versions     /bin/x86_64-linux-gnu-gp-display-src
+/bin/bunzip2/bin/pydoc3     /bin/x86_64-linux-gnu-gp-display-text
+/bin/bzip2/bin/pydoc3.11       /bin/x86_64-linux-gnu-gprof
+/bin/bzip2recover/bin/pygettext3      /bin/x86_64-linux-gnu-gprofng
+/bin/c89/bin/pygettext3.11     /bin/x86_64-linux-gnu-ld
+/bin/c89-gcc/bin/python3     /bin/x86_64-linux-gnu-ld.bfd
+/bin/c99/bin/python3.11      /bin/x86_64-linux-gnu-ld.gold
+/bin/c99-gcc/bin/sha1sum     /bin/x86_64-linux-gnu-lto-dump
+/bin/cpan5.36-x86_64-linux-gnu  /bin/sha224sum       /bin/x86_64-linux-gnu-lto-dump-12
+/bin/cpp-12/bin/sha256sum       /bin/x86_64-linux-gnu-nm
+/bin/diff3/bin/sha384sum       /bin/x86_64-linux-gnu-objcopy
+/bin/enc2xs/bin/sha512sum       /bin/x86_64-linux-gnu-objdump
+/bin/gcc-12/bin/ssh-argv0       /bin/x86_64-linux-gnu-ranlib
+/bin/gcc-ar-12  /bin/systemd-id128     /bin/x86_64-linux-gnu-readelf
+/bin/gcc-nm-12  /bin/traceroute6     /bin/x86_64-linux-gnu-size
+/bin/gcc-ranlib-12/bin/traceroute6.db     /bin/x86_64-linux-gnu-strings
+/bin/gcov-12/bin/x86_64     /bin/x86_64-linux-gnu-strip
+/bin/gcov-dump-12/bin/x86_64-linux-gnu-addr2line      /sbin/dumpe2fs
+/bin/gcov-tool-12/bin/x86_64-linux-gnu-ar     /sbin/e2freefrag
+/bin/grub-menulst2cfg   /bin/x86_64-linux-gnu-as     /sbin/e2fsck
+/bin/grub-mkpasswd-pbkdf2/bin/x86_64-linux-gnu-c++filt        /sbin/e2image
+/bin/grub-syslinux2cfg  /bin/x86_64-linux-gnu-cpp     /sbin/e2label
+/bin/h2ph/bin/x86_64-linux-gnu-cpp-12     /sbin/e2mmpstatus
+/bin/h2xs/bin/x86_64-linux-gnu-dwp     /sbin/e2scrub
+/bin/i386/bin/x86_64-linux-gnu-elfedit        /sbin/e2scrub_all
+/bin/linux32/bin/x86_64-linux-gnu-gcc     /sbin/e2undo
+/bin/linux64/bin/x86_64-linux-gnu-gcc-12     /sbin/e4crypt
+/bin/lto-dump-12/bin/x86_64-linux-gnu-gcc-ar     /sbin/e4defrag
+/bin/md5sum/bin/x86_64-linux-gnu-gcc-ar-12      /sbin/fsck.ext2
+/bin/md5sum.textutils   /bin/x86_64-linux-gnu-gcc-nm     /sbin/fsck.ext3
+/bin/pdb3/bin/x86_64-linux-gnu-gcc-nm-12      /sbin/fsck.ext4
+/bin/pdb3.11/bin/x86_64-linux-gnu-gcc-ranlib     /sbin/killall5
+/bin/perl5.36.0 /bin/x86_64-linux-gnu-gcc-ranlib-12  /sbin/mke2fs
+/bin/perl5.36-x86_64-linux-gnu  /bin/x86_64-linux-gnu-gcov     /sbin/mkfs.ext2
+/bin/ping4/bin/x86_64-linux-gnu-gcov-12        /sbin/mkfs.ext3
+/bin/ping6/bin/x86_64-linux-gnu-gcov-dump      /sbin/mkfs.ext4
+/bin/pl2pm/bin/x86_64-linux-gnu-gcov-dump-12   /sbin/resize2fs
+/bin/pod2html   /bin/x86_64-linux-gnu-gcov-tool      /sbin/tune2fs
+/bin/pod2man/bin/x86_64-linux-gnu-gcov-tool-12   /sbin/update-grub2
+/bin/pod2text   /bin/x86_64-linux-gnu-gold
+eltex-pg1-v11@eltex-2026-autumn:~$ ls -d /bin/*[0-9]* /sbin/*[0-9]*
+/bin/addr2line  /bin/pod2usage       /bin/x86_64-linux-gnu-gp-archive
+/bin/b2sum/bin/py3clean        /bin/x86_64-linux-gnu-gp-collect-app
+/bin/base32/bin/py3compile      /bin/x86_64-linux-gnu-gp-display-html
+/bin/base64/bin/py3versions     /bin/x86_64-linux-gnu-gp-display-src
+/bin/bunzip2/bin/pydoc3     /bin/x86_64-linux-gnu-gp-display-text
+/bin/bzip2/bin/pydoc3.11       /bin/x86_64-linux-gnu-gprof
+/bin/bzip2recover/bin/pygettext3      /bin/x86_64-linux-gnu-gprofng
+/bin/c89/bin/pygettext3.11     /bin/x86_64-linux-gnu-ld
+/bin/c89-gcc/bin/python3     /bin/x86_64-linux-gnu-ld.bfd
+/bin/c99/bin/python3.11      /bin/x86_64-linux-gnu-ld.gold
+/bin/c99-gcc/bin/sha1sum     /bin/x86_64-linux-gnu-lto-dump
+/bin/cpan5.36-x86_64-linux-gnu  /bin/sha224sum       /bin/x86_64-linux-gnu-lto-dump-12
+/bin/cpp-12/bin/sha256sum       /bin/x86_64-linux-gnu-nm
+/bin/diff3/bin/sha384sum       /bin/x86_64-linux-gnu-objcopy
+/bin/enc2xs/bin/sha512sum       /bin/x86_64-linux-gnu-objdump
+/bin/gcc-12/bin/ssh-argv0       /bin/x86_64-linux-gnu-ranlib
+/bin/gcc-ar-12  /bin/systemd-id128     /bin/x86_64-linux-gnu-readelf
+/bin/gcc-nm-12  /bin/traceroute6     /bin/x86_64-linux-gnu-size
+/bin/gcc-ranlib-12/bin/traceroute6.db     /bin/x86_64-linux-gnu-strings
+/bin/gcov-12/bin/x86_64     /bin/x86_64-linux-gnu-strip
+/bin/gcov-dump-12/bin/x86_64-linux-gnu-addr2line      /sbin/dumpe2fs
+/bin/gcov-tool-12/bin/x86_64-linux-gnu-ar     /sbin/e2freefrag
+/bin/grub-menulst2cfg   /bin/x86_64-linux-gnu-as     /sbin/e2fsck
+/bin/grub-mkpasswd-pbkdf2/bin/x86_64-linux-gnu-c++filt        /sbin/e2image
+/bin/grub-syslinux2cfg  /bin/x86_64-linux-gnu-cpp     /sbin/e2label
+/bin/h2ph/bin/x86_64-linux-gnu-cpp-12     /sbin/e2mmpstatus
+/bin/h2xs/bin/x86_64-linux-gnu-dwp     /sbin/e2scrub
+/bin/i386/bin/x86_64-linux-gnu-elfedit        /sbin/e2scrub_all
+/bin/linux32/bin/x86_64-linux-gnu-gcc     /sbin/e2undo
+/bin/linux64/bin/x86_64-linux-gnu-gcc-12     /sbin/e4crypt
+/bin/lto-dump-12/bin/x86_64-linux-gnu-gcc-ar     /sbin/e4defrag
+/bin/md5sum/bin/x86_64-linux-gnu-gcc-ar-12      /sbin/fsck.ext2
+/bin/md5sum.textutils   /bin/x86_64-linux-gnu-gcc-nm     /sbin/fsck.ext3
+/bin/pdb3/bin/x86_64-linux-gnu-gcc-nm-12      /sbin/fsck.ext4
+/bin/pdb3.11/bin/x86_64-linux-gnu-gcc-ranlib     /sbin/killall5
+/bin/perl5.36.0 /bin/x86_64-linux-gnu-gcc-ranlib-12  /sbin/mke2fs
+/bin/perl5.36-x86_64-linux-gnu  /bin/x86_64-linux-gnu-gcov     /sbin/mkfs.ext2
+/bin/ping4/bin/x86_64-linux-gnu-gcov-12        /sbin/mkfs.ext3
+/bin/ping6/bin/x86_64-linux-gnu-gcov-dump      /sbin/mkfs.ext4
+/bin/pl2pm/bin/x86_64-linux-gnu-gcov-dump-12   /sbin/resize2fs
+/bin/pod2html   /bin/x86_64-linux-gnu-gcov-tool      /sbin/tune2fs
+/bin/pod2man/bin/x86_64-linux-gnu-gcov-tool-12   /sbin/update-grub2
+/bin/pod2text   /bin/x86_64-linux-gnu-gold
+eltex-pg1-v11@eltex-2026-autumn:~$ PS1='$USER@$HOSTNAME-$(date +%H:%M)> '
+eltex-pg1-v11@eltex-2026-autumn-18:02>         export PS1
+eltex-pg1-v11@eltex-2026-autumn-18:03> bash --norc
+eltex-pg1-v11@eltex-2026-autumn-18:04>     bash
+eltex-pg1-v11@eltex-2026-autumn:~$  mkdir -p ~/"$(date +%Y)"-{01..12}
+eltex-pg1-v11@eltex-2026-autumn:~$ ls ` ~/
+2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  eltex-pg1-v11_part.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$     cd  ~
+bash: cd~: command not found
+eltex-pg1-v11@eltex-2026-autumn:~$ cd~ ~
+eltex-pg1-v11@eltex-2026-autumn:~$ touch "${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ ls 
+2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  eltex-pg1-v11_part3.log  report_part1.txt
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  eltex-pg1-v11_part.log
+eltex-pg1-v11@eltex-2026-autumn:~$       echo ''touch "${USER}_part3.log"'eltex-pg1-v11@eltex-2026-autumn:~$ echo 'touch "${USER}_part3.log"'>>  "${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3.log"
+touch "${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ mkdir D1/D2? /D3
+mkdir: cannot create directory D1/D2/D3: No such file or directory
+eltex-pg1-v11@eltex-2026-autumn:~$ mkdir D1/D2/D3eltex-pg1-v11@eltex-2026-autumn:~$ mkdireltex-pg1-v11@eltex-2026-autumn:~$ mkdir  D1/D2/D3- D1/D2/D3p D1/D2/D3
+eltex-pg1-v11@eltex-2026-autumn:~$ mkdir -p D1/D2/D3D1/D2/D3   cat "${USER}_part3.log"echo 'touch "${USER}_part3.log"'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ echo 'touch "${USER}_part3.log"'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" mkdir D1/D2/D3'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ echo 'mkdir D1/D2/D3'>>"${USER}_part3.log"- D1/D2/D3'>>"${USER}_part3.log"p D1/D2/D3'>>"${USER}_part3.log" -p D1/D2/D3'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$   touch D1/D2/file.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ touch D1/D2/file.txtecho 'mkdir -p D1/D2/D3'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ echo 'mkdir -p D1/D2/D3'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" >>"${USER}_part3.log" eltex-pg1-v11@eltex-2026-autumn:~$ echo ''>>"${USER}_part3.log" touch D1/D2/file.txt'>>"${USER}_part3.log"touch D1/D2/file.txt'>>"${USER}_part3.log" eltex-pg1-v11@eltex-2026-autumn:~$ echo '
+eltex-pg1-v11@eltex-2026-autumn:~$ echo "iufgasidufhapiusrhfopiuas">D1/D2/file.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/file.txt
+iufgasidufhapiusrhfopiuas
+eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/file.txtecho "iufgasidufhapiusrhfopiuas">D1/D2/file.txteltex-pg1-v11@eltex-2026-autumn:~$ echo 'touch D1/D2/file.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ echo 'touch D1/D2/file.teltex-pg1-v11@eltex-2026-autumn:~$ echo 'touch D1/D2/file.txeltex-pg1-v11@eltex-2026-autumn:~$ echo 'touch D1/D2/file.txt'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" echo "iufgasidufhapiusrhfopiuas">D1/D2/file.txt'>>"${USER}_part3>
+eltex-pg1-v11@eltex-2026-autumn:~$ <echo "iufgasidufhapiusrhfopiuas">D1/D2/file.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ echo 'echo "iufgasidufhapiusrhfopiuas">D1/D2/file.txt'>>"${USER}_part3>eltex-pg1-v11@eltex-2026-autumn:~$ echo 'echo "iufgasidufhapiusrhfopiuas">D1/D2/file.txt'>'>>"${USER}_part3.>'>>"${USER}_part3.l>'>>"${USER}_part3.lo>'>>"${USER}_part3.log"'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log"  cat D1/D2/file.txt'>>"${USER}_part3.log"cat D1/D2/file.txt'>>"${USER}_part3.log" 
+eltex-pg1-v11@eltex-2026-autumn:~$ ln D1/D2/file.txt D1/D2/D3/hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ ln D1/D2/file.txt D1/D2/D3/fhard_link.txtihard_link.txtlhard_link.txtehard_link.txt_hard_link.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ ln D1/D2/file.txt D1/D2/D3/file_hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ echo 'cat D1/D2/file.txt'>>"${USER}_part3.log"'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log"  ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.>ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.l>eltex-pg1-v11@eltex-2026-autumn:~$ echo '
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  D1       eltex-pg1-v11_part.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  eltex-pg1-v11_part3.log  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ ls< 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt< 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.log"          eltex-pg1-v11@eltex-2026-autumn:~$ ls                                 < 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ echo 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.l>eltex-pg1-v11@eltex-2026-autumn:~$ echo 'ln D1/D2/file.txt D1/D2/D3/file_hard_linkeltex-pg1-v11@eltex-2026-autumn:~$ echo 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.eltex-pg1-v11@eltex-2026-autumn:~$ echo 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.teltex-pg1-v11@eltex-2026-autumn:~$ echo 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txeltex-pg1-v11@eltex-2026-autumn:~$ echo 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ echo 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'eltex-pg1-v11@eltex-2026-autumn:~$ echo 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'>'>>"${USER}_part3.lo>'>>"${USER}_part3.log"'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" s'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ echo 'ls'>>"${USER}_part3.log"ls                            < 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ ln D1/D2/file.txt D1/D2/D3/file_hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ leltex-pg1-v11@eltex-2026-autumn:~$ lneltex-pg1-v11@eltex-2026-autumn:~$ ln eltex-pg1-v11@eltex-2026-autumn:~$ ln  D1/D2/file.txt D1/D2/D3/file_hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ ln - D1/D2/file.txt D1/D2/D3/file_hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ ln -seltex-pg1-v11@eltex-2026-autumn:~$ ln -s eltex-pg1-v11@eltex-2026-autumn:~$ ln -s Deltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/Deltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/feltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/fieltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/fileltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/fileeltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.teltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txeltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txteltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt Deltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/Deltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/Deltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/feltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/fieltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/fileltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/fileeltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_heltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_haeltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_hareltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_hardeltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_hard__link.txt _link.txt _link.txt _link.txt s_link.txty_link.txtm_link.txteltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_sym_eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_sym_leltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_sym_lieltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_sym_lineltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_sym_linkeltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_sym_link.eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_sym_link.teltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_sym_link.txeltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_sym_link.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ ln -s D1/D2/file.txt D1/D2/D3/file_sym_link.txteltex-pg1-v11@eltex-2026-autumn:~$ echo 'ls'>>"${USER}_part3.log"                 ls                            
+2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  D1       eltex-pg1-v11_part.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  eltex-pg1-v11_part3.log  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ lsn -s D1/D2/file.txt D1/D2/D3/file_sym_link.txteltex-pg1-v11@eltex-2026-autumn:~$ echo 'ls'>>"${USER}_part3.log"                 ls                            < 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ ln D1/D2/file.txt D1/D2/D3/file_hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ echo 'cat D1/D2/file.txt'>>"${USER}_part3.log"<echo "iufgasidufhapiusrhfopiuas">D1/D2/file.txt'>>"${USER}_part3.log"           eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/file.txt                 echo "iufgasidufhapiusrhfopiuas">D1/D2/file.txteltex-pg1-v11@eltex-2026-autumn:~$ echo 'touch D1/D2/file.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ echo "iufgasidufhapiusrhfopiuas">D1/D2/file.txt eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/file.txt                             <echo "iufgasidufhapiusrhfopiuas">D1/D2/file.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ echo 'cat D1/D2/file.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt < 'ln D1/D2/file.txt D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.log"          eltex-pg1-v11@eltex-2026-autumn:~$ ls                                 echo 'ls'>>"${USER}_part3.log"ln -s D1/D2/file.txt D1/D2/D3/file_sym_link.txteltex-pg1-v11@eltex-2026-autumn:~$ ls                                             eltex-pg1-v11@eltex-2026-autumn:~$ ls  D1/D2/D3/lD1/D2/D3/sD1/D2/D3/ D1/D2/D3/
+file_hard_link.txt  file_sym_link.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ ls D1/D2/D3/            ls D1/D2/D3/          n -s D1/D2/file.txt D1/D2/D3/file_sym_link.txteltex-pg1-v11@eltex-2026-autumn:~$ echo 'ls'>>"${USER}_part3.log"                 '>>"${USER}_part3.log" '>>"${USER}_part3.log" ln -s D1/D2/file.txt D1/D2/D3/file_sym_link.txt'>>"${USER}_part3>
+eltex-pg1-v11@eltex-2026-autumn:~$ <ln -s D1/D2/file.txt D1/D2/D3/file_sym_link.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ ls D1/D2/D3/                                 n -s D1/D2/file.txt D1/D2/D3/file_sym_link.txteltex-pg1-v11@eltex-2026-autumn:~$ echo 'ls'>>"${USER}_part3.log"                  '>>"${USER}_part3.log"D1/D2/D3/'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ ls -li D1/D2/file.txt D1/D2/D3/
+131241 -rw-r--r-- 2 eltex-pg1-v11 eltex-pg1-v11   26 Oct 14 18:17 D1/D2/file.txt
+
+D1/D2/D3/:
+total 4
+131241 -rw-r--r-- 2 eltex-pg1-v11 eltex-pg1-v11 26 Oct 14 18:17 file_hard_link.txt
+131242 lrwxrwxrwx 1 eltex-pg1-v11 eltex-pg1-v11 14 Oct 14 18:21 file_sym_link.txt -> D1/D2/file.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ ls -li D1/D2/file.txt D1/D2/D3/echo 'ls D1/D2/D3/'>>"${USER}_part3.log"'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" ls -li D1/D2/file.txt D1/D2/D3/'>>"${USER}_part3.log"~'>>"${USER}_part3.log"'>>"${USER}_part3.log" 
+eltex-pg1-v11@eltex-2026-autumn:~$ mv D1/D2/file.txt D1/
+eltex-pg1-v11@eltex-2026-autumn:~$ mv D1/D2/file.txt D1/echo 'ls -li D1/D2/file.txt D1/D2/D3/'>>"${USER}_part3.log"'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" mv D1/D2/file.txt D1/'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$     ls D1/
+D2  file.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ ls D1/echo 'mv D1/D2/file.txt D1/'>>"${USER}_part3.log"'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" ls D1/'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/hard_link.txt
+cat: D1/D2/D3/hard_link.txt: No such file or directory
+eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/hard_link.txt                          echo 'ls D1/'>>"${USER}_part3.log"                                  echo 'ls D1/'>>"${USER}_part3.log"                                  cat D1/D2/D3/hard_link.txtfhard_link.txtihard_link.txtlhard_link.txtehard_link.txt_hard_link.txt
+iufgasidufhapiusrhfopiuas
+eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/file_hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/file_haeltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/file_hareltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/file_hard_link.txt _link.txt _link.txt _link.txt s_link.txty_link.txtm_link.txt
+cat: D1/D2/D3/file_sym_link.txt: No such file or directory
+eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/file_sym_link.txthard_link.txthard_link.txt     echo 'ls D1/'>>"${USER}_part3.log"'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log"  cat D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ echo ' cat D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ echo ' cat D1/D2/D3/file_hard_link.txt'>>"${USER}_part3.log" _link.txt'>>"${USER}_part3.log" _link.txt'>>"${USER}_part3.log" _link.txt'>>"${USER}_part3.log" _link.txt'>>"${USER}_part3.log"_link.txt'>>"${USER}_part3.log"_link.txt'>>"${USER}_part3.log" _link.txt'>>"${USER}_part3.log" s_link.txt'>>"${USER}_part3.log"y_link.txt'>>"${USER}_part3.log"m_link.txt'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$   rm -rf D1/D2 && echo 'rm -rf D1/D2' >> "${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ ls   // eltex-pg1-v11@eltex-2026-autumn:~$ ls/  D1/
+file.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ ls D1/rm -rf D1/D2 && echo 'rm -rf D1/D2' >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ echo ' cat D1/D2/D3/file_sym_link.txt'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ echo ' cat D1/D2/D3/file_sym_link.txt'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" ls D1/'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ find / -type f -size +20M 2>/dev/null
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-44-amd64
+/boot/initrd.img-6.1.0-50-amd64
+/boot/initrd.img-6.1.0-53-amd64
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-000000000016aef5-0006585775bcfe03.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+eltex-pg1-v11@eltex-2026-autumn:~$ find / -type f -size +20M 2>/dev/null ??  &&    && echo   " '<-size +20M 2>/dev/null && echo 'find / -type f -size +20M 2>/dev/null            '>>"${USER}_part3_gt20M.log"
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-44-amd64
+/boot/initrd.img-6.1.0-50-amd64
+/boot/initrd.img-6.1.0-53-amd64
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-000000000016aef5-0006585775bcfe03.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+eltex-pg1-v11@eltex-2026-autumn:~$ S   cat $USER_part3_gt20M.log                     "${USER}_part3_gt20M.log"
+cat: eltex-pg1-v11_part3_gt20M.log: No such file or directory
+eltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_eltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_peltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_paeltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_pareltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_parteltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3eltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_eltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_geltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_gteltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_gt2eltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_gt20eltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_gt20Meltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_gt20M.eltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_gt20M.leltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_gt20M.loeltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_gt20M.logeltex-pg1-v11@eltex-2026-autumn:~$ cat "${USER}_part3_gt20M.log"                             ls
+2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  D1       eltex-pg1-v11_part.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  eltex-pg1-v11_part3.log  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ lscat "${USER}_part3_gt20M.log"<ho 'find / -type f -size +20M 2>/dev/null'>>"${USER}_part3_gt20M.log""${USER}_part3_gt20M.log" 
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-44-amd64
+/boot/initrd.img-6.1.0-50-amd64
+/boot/initrd.img-6.1.0-53-amd64
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-000000000016aef5-0006585775bcfe03.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+eltex-pg1-v11@eltex-2026-autumn:~$ <cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ ls                                 cat "${USER}_part3_gt20M.log"ls                           
+2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  D1       eltex-pg1-v11_part.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  eltex-pg1-v11_part3.log  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ touch "${USER}_part3_gt20M.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ touch "${USER}_part3_gt20M.log"ls                             
+2026-01  2026-04  2026-07  2026-10  D1     eltex-pg1-v11_part.log
+2026-02  2026-05  2026-08  2026-11  eltex-pg1-v11_part3_gt20M.log  report_part1.txt
+2026-03  2026-06  2026-09  2026-12  eltex-pg1-v11_part3.log
+eltex-pg1-v11@eltex-2026-autumn:~$ lstouch "${USER}_part3_gt20M.log"ls                             <cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log"
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-44-amd64
+/boot/initrd.img-6.1.0-50-amd64
+/boot/initrd.img-6.1.0-53-amd64
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-000000000016aef5-0006585775bcfe03.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+eltex-pg1-v11@eltex-2026-autumn:~$ <cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ ls                                 touch "${USER}_part3_gt20M.log"ls                             <cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$                                    <cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ ls                                 touch "${USER}_part3_gt20M.log"ls                             <cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ ls                                 cat "${USER}_part3_gt20M.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ cat   ls
+2026-01  2026-04  2026-07  2026-10  D1     eltex-pg1-v11_part.log
+2026-02  2026-05  2026-08  2026-11  eltex-pg1-v11_part3_gt20M.log  report_part1.txt
+2026-03  2026-06  2026-09  2026-12  eltex-pg1-v11_part3.log
+eltex-pg1-v11@eltex-2026-autumn:~$ cat  eltex-pg1-v11_part3_gt20M.log
+eltex-pg1-v11@eltex-2026-autumn:~$ cat  eltex-pg1-v11_part3_gt20M.logeltex-pg1-v11_part3_gt20M.log 
+eltex-pg1-v11@eltex-2026-autumn:~$ cat eltex-pg1-v11_part3_gt20M.log eltex-pg1-v11_part3_gt20M.logls                                cat "${USER}_part3_gt20M.log"<cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log">"${USER}_part3_gt20M.log"
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-44-amd64
+/boot/initrd.img-6.1.0-50-amd64
+/boot/initrd.img-6.1.0-53-amd64
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-000000000016aef5-0006585775bcfe03.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+eltex-pg1-v11@eltex-2026-autumn:~$ <ho 'find / -type f -size +20M 2>/dev/null'>>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ cat eltex-pg1-v11_part3_gt20M.log  
+eltex-pg1-v11@eltex-2026-autumn:~$ find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ cat eltex-pg1-v11_part3_gt20M.log                                
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-44-amd64
+/boot/initrd.img-6.1.0-50-amd64
+/boot/initrd.img-6.1.0-53-amd64
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-000000000016aef5-0006585775bcfe03.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+eltex-pg1-v11@eltex-2026-autumn:~$ cat eltex-pg1-v11_part3_gt20M.log
+/usr/bin/x86_64-linux-gnu-lto-dump-12
+/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+/proc/kcore
+/boot/initrd.img-6.1.0-44-amd64
+/boot/initrd.img-6.1.0-50-amd64
+/boot/initrd.img-6.1.0-53-amd64
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-000000000016aef5-0006585775bcfe03.journal
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+/var/cache/apt/srcpkgcache.bin
+/var/cache/apt/pkgcache.bin
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+eltex-pg1-v11@eltex-2026-autumn:~$ rccat eltex-pg1-v11_part3_gt20M.logfind / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ cat eltex-pg1-v11_part3_gt20M.log                                find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"<log"find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"                                                                                           eltex-pg1-v11@eltex-2026-autumn:~$ find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"fin                                                                    cat eltex-pg1-v11_part3_gt20M.log<ho 'find / -type f -size +20M 2>/dev/null'>>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ cat eltex-pg1-v11_part3_gt20M.log   eltex-pg1-v11_part3_gt20M.logls                                cat "${USER}_part3_gt20M.log"<cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ ls                                 touch "${USER}_part3_gt20M.log"ls                             <cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ ls                                 cat "${USER}_part3_gt20M.log"<ho 'find / -type f -size +20M 2>/dev/null'>>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ find / -type f -size +20M 2>/dev/nulleltex-pg1-v11@eltex-2026-autumn:~$ echo 'ls D1/'>>"${USER}_part3.log"   '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" <ho 'find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ <ze +20M 2>/dev/null > "${USER}_part3_gt20M.log"'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ cat eltex-pg1-v11_part3_gt20M.log                                   cat eltex-pg1-v11_part3_gt20M.log<ho 'find / -type f -size +20M 2>/dev/null'>>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ cat eltex-pg1-v11_part3_gt20M.log   eltex-pg1-v11_part3_gt20M.logls                                cat "${USER}_part3_gt20M.log"<cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ ls                                 touch "${USER}_part3_gt20M.log"ls                             <cho 'find / -type f -size +20M 2>/dev/null'>"${USER}_part3_gt20M.log"eltex-pg1-v11@eltex-2026-autumn:~$ ls                                 cat "${USER}_part3_gt20M.log"cat "${USER}_part3_gt20M.log"<ho 'find / -type f -size +20M 2>/dev/null'>>"${USER}_part3_gt20M.log"                       eltex-pg1-v11@eltex-2026-autumn:~$ find / -type f -size +20M 2>/dev/null<ho 'find / -type f -size +20M 2>/dev/null'>>"${USER}_part3_gt20M.log"  eltex-pg1-v11@eltex-2026-autumn:~$ find / -type f -size +20M 2>/dev/nulleltex-pg1-v11@eltex-2026-autumn:~$ echo 'ls D1/'>>"${USER}_part3.log"   ls D1/                            echo 'ls D1/'>>"${USER}_part3.log"'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" cat "${USER}_part3_gt20M.log"'>>"${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ echo 'cat "${USER}_part3_gt20M.log"'>>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$                                                          eltex-pg1-v11@eltex-2026-autumn:~$ xargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/null && <dev/null && echo 'cat "${USER}_part3_gt20M.log"'>>"${USER}_part3.log"                     <dev/null && echo 'cat "${USER}_part3_gt20M.log"'>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" '>>"${USER}_part3.log" eltex-pg1-v11@eltex-2026-autumn:~$ xargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/null && echo 'cat "$'>>'>>>'>>">'>>"$>'>>"${>'>>"${U>'>>"${US><ev/null && echo 'xargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/null'>>"${USER}_part3.log"              
+31M/usr/bin/x86_64-linux-gnu-lto-dump-12
+31M/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+32M/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+30M/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+0/proc/kcore
+33M/boot/initrd.img-6.1.0-44-amd64
+33M/boot/initrd.img-6.1.0-50-amd64
+33M/boot/initrd.img-6.1.0-53-amd64
+41M/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+25M/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+42M/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-000000000016aef5-0006585775bcfe03.journal
+33M/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+25M/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+39M/var/cache/apt/srcpkgcache.bin
+39M/var/cache/apt/pkgcache.bin
+48M/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+49M/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+32M/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+eltex-pg1-v11@eltex-2026-autumn:~$ find ~ -type f -mmin -1440 ??  && <min -1440 && echo 'find ~ -type f -mmin -1440' >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ find ~ -type f -mmin -1440 && echo 'find ~ -type f -mmin -1440' >> "${>
+/home/eltex-pg1-v11/.viminfo
+/home/eltex-pg1-v11/eltex-pg1-v11_part3.log
+/home/eltex-pg1-v11/eltex-pg1-v11_part.log
+/home/eltex-pg1-v11/report_part1.txt
+/home/eltex-pg1-v11/.lesshst
+/home/eltex-pg1-v11/D1/file.txt
+/home/eltex-pg1-v11/eltex-pg1-v11_part3_gt20M.log
+/home/eltex-pg1-v11/.bash_history
+eltex-pg1-v11@eltex-2026-autumn:~$ which find ?   && echo "$(which find)" >> "${USER}_part3.log"" >> "${USER}_part3.log" eltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "$eltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "$(which find" >> "${USER}_part3.log" which find" >> "${USER}_part3.log" eltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "weltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "wheltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "whieltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "whiceltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "whicheltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "which eltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "which feltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "which fieltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "which fineltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "which findeltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "which find"eltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "which find" eltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "which find" >eltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "which find" >>eltex-pg1-v11@eltex-2026-autumn:~$ which find && echo "which find" >> "${USER}_part3.log" >>"${USER}_part3.log" 
+/usr/bin/find
+eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && < $(which find) && echo "$(file $(which find))" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo "$(file $(which find))" >> "${USER}_part3.l>"${USER}_part3.lo>>>"${USER}_part3.log"">>"${USER}_part3.log" file $(which find)">>"${USER}_part3.log" file $(which find)">>"${USER}_part3.log" file $(which find)">>"${USER}_part3.log" 'file $(which find)">>"${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'feltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'fieltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'fileltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'fileeltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(weltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(wheltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(whieltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(whiceltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(whicheltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(which eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(which feltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(which fieltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(which fineltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(which findeltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(which find)eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(which find)"eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(which find)">>>"${USER}_part3.log" '>>"${USER}_part3.log"
+/usr/bin/find: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=5545a6c7162d325fbe5ffabcbfe4e5521b66ce70, for GNU/Linux 3.2.0, stripped
+eltex-pg1-v11@eltex-2026-autumn:~$ file /boot/initrd.img* ??    && echo " ''>> "${USER}_part3.log""${USER}_part3.log" file /boot/initrd.img*'>>"${USER}_part>
+/boot/initrd.img-6.1.0-44-amd64: ASCII cpio archive (SVR4 with no CRC)
+/boot/initrd.img-6.1.0-50-amd64: ASCII cpio archive (SVR4 with no CRC)
+/boot/initrd.img-6.1.0-53-amd64: ASCII cpio archive (SVR4 with no CRC)
+eltex-pg1-v11@eltex-2026-autumn:~$    k logout
+bash: logout: not login shell: use `exit'
+eltex-pg1-v11@eltex-2026-autumn:~$ exit
+exit
+eltex-pg1-v11@eltex-2026-autumn-18:50> exit
+exit
+eltex-pg1-v11@eltex-2026-autumn-18:50> exit
+exit
+eltex-pg1-v11@eltex-2026-autumn:~$ script -q "${USER}_part.log"                            logout
+bash: logout: not login shell: use `exit'
+eltex-pg1-v11@eltex-2026-autumn:~$ exit
+exit
+
+[screen is terminating]
+eltex-pg1-v11@eltex-2026-autumn:~$ logout
+
