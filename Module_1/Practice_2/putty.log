@@ -1,3 +1,642 @@
 =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.10.14 14:50:32 =~=~=~=~=~=~=~=~=~=~=~=
 Using username "eltex-pg1-v11".
+eltex-pg1-v11@217.71.138.1's password: =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.10.19 15:02:35 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "eltex-pg1-v11".
+eltex-pg1-v11@217.71.138.1's password: =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.10.22 22:02:48 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "eltex-pg1-v11".
+eltex-pg1-v11@217.71.138.1's password: =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2026.10.22 22:03:25 =~=~=~=~=~=~=~=~=~=~=~=
+Using username "eltex-pg1-v11".
 eltex-pg1-v11@217.71.138.1's password: 
+Linux eltex-2026-autumn 6.1.0-53-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.187-1 (2026-09-07) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Wed Oct 14 19:34:32 2026 from 188.162.5.19
+eltex-pg1-v11@eltex-2026-autumn:~$ eltex-pg1-v11@eltex-2026-autumn:~$ eltex-pg1-v11@eltex-2026-autumn:~$ eltex-pg1-v11@eltex-2026-autumn:~$ eltex-pg1-v11@eltex-2026-autumn:~$ eltex-pg1-v11@eltex-2026-autumn:~$ eltex-pg1-v11@eltex-2026-autumn:~$ eltex-pg1-v11@eltex-2026-autumn:~$ pwdcat  eltex-pg1-v11_part.logpwdclear
+eltex-pg1-v11@eltex-2026-autumn:~$ screen - -md -mman -Lru screen
+SCREEN(1)                                           General Commands Manual                                           SCREEN(1)
+
+NAME
+       screen - screen manager with VT100/ANSI terminal emulation
+
+SYNOPSIS
+       screen [ -options ] [ cmd [ args ] ]
+       screen -r [[pid.]tty[.host]]
+       screen -r sessionowner/[[pid.]tty[.host]]
+
+DESCRIPTION
+       Screen  is a full-screen window manager that multiplexes a physical terminal between several processes (typically inter
+       active shells).  Each virtual terminal provides the functions of a DEC VT100 terminal and, in addition, several  control
+       functions from the ISO 6429 (ECMA 48, ANSI X3.64) and ISO 2022 standards (e.g. insert/delete line and support for multi
+       ple character sets).  There is a scrollback history buffer for each virtual terminal and a copy-and-paste mechanism that
+       allows moving text regions between windows.
+
+       When  screen  is  called,  it creates a single window with a shell in it (or the specified command) and then gets out of
+       your way so that you can use the program as you normally would.  Then, at any time, you  can  create  new  (full-screen)
+       windows  with other programs in them (including more shells), kill existing windows, view a list of windows, turn output
+       logging on and off, copy-and-paste text between windows, view the scrollback history, switch between windows in whatever
+       manner you wish, etc. All windows run their programs completely independent of each other. Programs continue to run when
+       their window is currently not visible and even when the whole screen session is detached from the user's terminal.  When
+       a  program  terminates,  screen (per default) kills the window that contained it.  If this window was in the foreground,
+       the display switches to the previous window; if none are left, screen exits. Shells usually distinguish between  running
+       as login-shell or sub-shell.  Screen runs them as sub-shells, unless told otherwise (See shell .screenrc command).
+
+       Everything  you  type  is sent to the program running in the current window.  The only exception to this is the one key
+       stroke that is used to initiate a command to the window manager.  By default, each command begins with a control-a  (ab
+       breviated  C-a from now on), and is followed by one other keystroke.  The command character and all the key bindings can
+       be fully customized to be anything you like, though they are always two characters in length.
+
+       Screen does not understand the prefix C- to mean control, although this notation is used in this manual for readability.
+       Please use the caret notation (^A instead of C-a) as arguments to e.g. the escape command or the -e option.  Screen will
+       also print out control characters in caret notation.
+
+       The standard way to create a new window is to type C-a c.  This creates a new window running a  shell  and  switches  to
+       that  window immediately, regardless of the state of the process running in the current window.  Similarly, you can cre
+       ate a new window with a custom command in it by first binding the command to a keystroke (in your .screenrc file  or  at
+       the  C-a : command line) and then using it just like the C-a c command.  In addition, new windows can be created by run
+       ning a command like:
+
+ Manual page screen(1) line 1 (press h for help or q to quit) ESCESCOOBB              screen emacs prog.c
+ Manual page screen(1) line 2 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 3 (press h for help or q to quit) ESCESCOOBB       from a shell prompt within a previously created window.  This will not run another copy of screen, but will instead sup
+ Manual page screen(1) line 4 (press h for help or q to quit) ESCESCOOBB       ply  the  command name and its arguments to the window manager (specified in the $STY environment variable) who will use
+ Manual page screen(1) line 5 (press h for help or q to quit) ESCESCOOBB       it to create the new window.  The above example would start the emacs editor (editing prog.c) and switch to its  window.
+ Manual page screen(1) line 6 (press h for help or q to quit) ESCESCOOBB       -  Note that you cannot transport environment variables from the invoking shell to the application (emacs in this case),
+ Manual page screen(1) line 7 (press h for help or q to quit) ESCESCOOBB       because it is forked from the parent screen process, not from the invoking shell.
+ Manual page screen(1) line 8 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 9 (press h for help or q to quit) ESCESCOOBB       If /run/utmp is writable by screen, an appropriate record will be written to this file for each window, and removed when
+ Manual page screen(1) line 10 (press h for help or q to quit) ESCESCOOBB       the  window  is  terminated.  This is useful for working with talk, script, shutdown, rsend, sccs and other similar pro
+ Manual page screen(1) line 11 (press h for help or q to quit) ESCESCOOBB       grams that use the utmp file to determine who you are. As long as screen is active on your terminal, the terminal's  own
+ Manual page screen(1) line 12 (press h for help or q to quit) ESCESCOOBB       record is removed from the utmp file. See also C-a L.
+ Manual page screen(1) line 13 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 14 (press h for help or q to quit) ESCESCOOBBGETTING STARTED
+ Manual page screen(1) line 15 (press h for help or q to quit) ESCESCOOBB       Before  you  begin  to  use  screen you'll need to make sure you have correctly selected your terminal type, just as you
+ Manual page screen(1) line 16 (press h for help or q to quit) ESCESCOOBB       would for any other termcap/terminfo program.  (You can do this by using test for example.)
+ Manual page screen(1) line 17 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 18 (press h for help or q to quit) ESCESCOOBB       If you're impatient and want to get started without doing a lot more reading, you should remember this one command:  C-a
+ Manual page screen(1) line 19 (press h for help or q to quit) ESCESCOOBB       ?.   Typing these two characters will display a list of the available screen commands and their bindings. Each keystroke
+ Manual page screen(1) line 20 (press h for help or q to quit) ESCESCOOBB       is discussed in the section DEFAULT KEY BINDINGS. The manual section CUSTOMIZATION  deals  with  the  contents  of  your
+ Manual page screen(1) line 21 (press h for help or q to quit) ESCESCOOBB       .screenrc.
+ Manual page screen(1) line 22 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 23 (press h for help or q to quit) ESCESCOOBB       If  your terminal is a true auto-margin terminal (it doesn't allow the last position on the screen to be updated without
+ Manual page screen(1) line 24 (press h for help or q to quit) ESCESCOOBB       scrolling the screen) consider using a version of your terminal's termcap that has automatic margins  turned  off.  This
+ Manual page screen(1) line 25 (press h for help or q to quit) ESCESCOOBB       will  ensure  an accurate and optimal update of the screen in all circumstances. Most terminals nowadays have magic mar
+ Manual page screen(1) line 26 (press h for help or q to quit) ESCESCOOBB       gins (automatic margins plus usable last column). This is the VT100 style type and perfectly suited for screen.  If  all
+ Manual page screen(1) line 27 (press h for help or q to quit) ESCESCOOBB       you've  got  is a true auto-margin terminal screen will be content to use it, but updating a character put into the last
+ Manual page screen(1) line 28 (press h for help or q to quit) ESCESCOOBB       position on the screen may not be possible until the screen scrolls or the character is moved into a  safe  position  in
+ Manual page screen(1) line 29 (press h for help or q to quit) ESCESCOOBB       some other way. This delay can be shortened by using a terminal with insert-character capability.
+ Manual page screen(1) line 30 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 31 (press h for help or q to quit) ESCESCOOBBCOMMAND-LINE OPTIONS
+ Manual page screen(1) line 32 (press h for help or q to quit) ESCESCOOBB       Screen has the following command-line options:
+ Manual page screen(1) line 33 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 34 (press h for help or q to quit) ESCESCOOBB       -a   include all capabilities (with some minor exceptions) in each window's termcap, even if screen must redraw parts of
+ Manual page screen(1) line 35 (press h for help or q to quit) ESCESCOOBB            the display in order to implement a function.
+ Manual page screen(1) line 36 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 37 (press h for help or q to quit) ESCESCOOBB       -A   Adapt the sizes of all windows to the size of the current terminal.  By default, screen tries to  restore  its  old
+ Manual page screen(1) line 38 (press h for help or q to quit) ESCESCOOBB            window sizes when attaching to resizable terminals (those with WS in its description, e.g. suncmd or some xterm).
+ Manual page screen(1) line 39 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 40 (press h for help or q to quit) ESCESCOOBB       -c file
+ Manual page screen(1) line 41 (press h for help or q to quit) ESCESCOOBB            override the default configuration file from $HOME/.screenrc to file.
+ Manual page screen(1) line 42 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 43 (press h for help or q to quit) ESCESCOOBB       -d|-D [pid.tty.host]
+ Manual page screen(1) line 44 (press h for help or q to quit) ESCESCOOBB            does  not  start  screen, but detaches the elsewhere running screen session. It has the same effect as typing C-a d
+ Manual page screen(1) line 45 (press h for help or q to quit) ESCESCOOBB            from screen's controlling terminal. -D is the equivalent to the power detach key.  If no session can  be  detached,
+ Manual page screen(1) line 46 (press h for help or q to quit) ESCESCOOBB            this option is ignored. In combination with the -r/-R option more powerful effects can be achieved:
+ Manual page screen(1) line 47 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 48 (press h for help or q to quit) ESCESCOOBB       -d -r   Reattach a session and if necessary detach it first.
+ Manual page screen(1) line 49 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 50 (press h for help or q to quit) ESCESCOOBB       -d -R   Reattach a session and if necessary detach or even create it first.
+ Manual page screen(1) line 51 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 52 (press h for help or q to quit) ESCESCOOBB       -d -RR  Reattach  a  session  and  if  necessary  detach or create it. Use the first session if more than one session is
+ Manual page screen(1) line 53 (press h for help or q to quit) ESCESCOOBB               available.
+ Manual page screen(1) line 54 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 55 (press h for help or q to quit) ESCESCOOBB       -D -r   Reattach a session. If necessary detach and logout remotely first.
+ Manual page screen(1) line 56 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 57 (press h for help or q to quit) ESCESCOOBB       -D -R   Attach here and now. In detail this means: If a session is running, then reattach. If necessary detach  and  lo
+ Manual page screen(1) line 58 (press h for help or q to quit) ESCESCOOBB               gout remotely first.  If it was not running create it and notify the user. This is the author's favorite.
+ Manual page screen(1) line 59 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 60 (press h for help or q to quit) ESCESCOOBB       -D -RR  Attach here and now. Whatever that means, just do it.
+ Manual page screen(1) line 61 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 62 (press h for help or q to quit) ESCESCOOBB            Note: It is always a good idea to check the status of your sessions by means of screen -list.
+ Manual page screen(1) line 63 (press h for help or q to quit) ESCESCOOBB
+ Manual page screen(1) line 64 (press h for help or q to quit) ESCESCOOBB       -e xy
+ Manual page screen(1) line 65 (press h for help or q to quit) ESCESCOOBB            specifies  the  command character to be x and the character generating a literal command character to y (when typed
+ Manual page screen(1) line 66 (press h for help or q to quit) ESCESCOOBB            after the command character).  The default is C-a and `a', which can be specified as -e^Aa.  When creating a screen
+ Manual page screen(1) line 67 (press h for help or q to quit) ESCESCOOBB            session, this option sets the default command character. In a multiuser session all users added will start off with
+ Manual page screen(1) line 68 (press h for help or q to quit)       gins (automatic margins plus usable last column). This is the VT100 style type and perfectly suited for screen.  If  all
+       you've  got  is a true auto-margin terminal screen will be content to use it, but updating a character put into the last
+       position on the screen may not be possible until the screen scrolls or the character is moved into a  safe  position  in
+       some other way. This delay can be shortened by using a terminal with insert-character capability.
+
+COMMAND-LINE OPTIONS
+       Screen has the following command-line options:
+
+       -a   include all capabilities (with some minor exceptions) in each window's termcap, even if screen must redraw parts of
+            the display in order to implement a function.
+
+       -A   Adapt the sizes of all windows to the size of the current terminal.  By default, screen tries to  restore  its  old
+            window sizes when attaching to resizable terminals (those with WS in its description, e.g. suncmd or some xterm).
+
+       -c file
+            override the default configuration file from $HOME/.screenrc to file.
+
+       -d|-D [pid.tty.host]
+            does  not  start  screen, but detaches the elsewhere running screen session. It has the same effect as typing C-a d
+            from screen's controlling terminal. -D is the equivalent to the power detach key.  If no session can  be  detached,
+            this option is ignored. In combination with the -r/-R option more powerful effects can be achieved:
+
+       -d -r   Reattach a session and if necessary detach it first.
+
+       -d -R   Reattach a session and if necessary detach or even create it first.
+
+       -d -RR  Reattach  a  session  and  if  necessary  detach or create it. Use the first session if more than one session is
+               available.
+
+       -D -r   Reattach a session. If necessary detach and logout remotely first.
+
+       -D -R   Attach here and now. In detail this means: If a session is running, then reattach. If necessary detach  and  lo
+               gout remotely first.  If it was not running create it and notify the user. This is the author's favorite.
+
+       -D -RR  Attach here and now. Whatever that means, just do it.
+
+            Note: It is always a good idea to check the status of your sessions by means of screen -list.
+
+       -e xy
+            specifies  the  command character to be x and the character generating a literal command character to y (when typed
+            after the command character).  The default is C-a and `a', which can be specified as -e^Aa.  When creating a screen
+            session, this option sets the default command character. In a multiuser session all users added will start off with
+ Manual page screen(1) line 68 (press h for help or q to quit)       gins (automatic margins plus usable last column). This is the VT100 style type and perfectly suited for screen.  If  all
+       you've  got  is a true auto-margin terminal screen will be content to use it, but updating a character put into the last
+       position on the screen may not be possible until the screen scrolls or the character is moved into a  safe  position  in
+       some other way. This delay can be shortened by using a terminal with insert-character capability.
+
+COMMAND-LINE OPTIONS
+       Screen has the following command-line options:
+
+       -a   include all capabilities (with some minor exceptions) in each window's termcap, even if screen must redraw parts of
+            the display in order to implement a function.
+
+       -A   Adapt the sizes of all windows to the size of the current terminal.  By default, screen tries to  restore  its  old
+            window sizes when attaching to resizable terminals (those with WS in its description, e.g. suncmd or some xterm).
+
+       -c file
+            override the default configuration file from $HOME/.screenrc to file.
+
+       -d|-D [pid.tty.host]
+            does  not  start  screen, but detaches the elsewhere running screen session. It has the same effect as typing C-a d
+            from screen's controlling terminal. -D is the equivalent to the power detach key.  If no session can  be  detached,
+            this option is ignored. In combination with the -r/-R option more powerful effects can be achieved:
+
+       -d -r   Reattach a session and if necessary detach it first.
+
+       -d -R   Reattach a session and if necessary detach or even create it first.
+
+       -d -RR  Reattach  a  session  and  if  necessary  detach or create it. Use the first session if more than one session is
+               available.
+
+       -D -r   Reattach a session. If necessary detach and logout remotely first.
+
+       -D -R   Attach here and now. In detail this means: If a session is running, then reattach. If necessary detach  and  lo
+               gout remotely first.  If it was not running create it and notify the user. This is the author's favorite.
+
+       -D -RR  Attach here and now. Whatever that means, just do it.
+
+            Note: It is always a good idea to check the status of your sessions by means of screen -list.
+
+       -e xy
+            specifies  the  command character to be x and the character generating a literal command character to y (when typed
+            after the command character).  The default is C-a and `a', which can be specified as -e^Aa.  When creating a screen
+            session, this option sets the default command character. In a multiuser session all users added will start off with
+ Manual page screen(1) line 68 (press h for help or q to quit)       gins (automatic margins plus usable last column). This is the VT100 style type and perfectly suited for screen.  If  all
+       you've  got  is a true auto-margin terminal screen will be content to use it, but updating a character put into the last
+       position on the screen may not be possible until the screen scrolls or the character is moved into a  safe  position  in
+       some other way. This delay can be shortened by using a terminal with insert-character capability.
+
+COMMAND-LINE OPTIONS
+       Screen has the following command-line options:
+
+       -a   include all capabilities (with some minor exceptions) in each window's termcap, even if screen must redraw parts of
+            the display in order to implement a function.
+
+       -A   Adapt the sizes of all windows to the size of the current terminal.  By default, screen tries to  restore  its  old
+            window sizes when attaching to resizable terminals (those with WS in its description, e.g. suncmd or some xterm).
+
+       -c file
+            override the default configuration file from $HOME/.screenrc to file.
+
+       -d|-D [pid.tty.host]
+            does  not  start  screen, but detaches the elsewhere running screen session. It has the same effect as typing C-a d
+            from screen's controlling terminal. -D is the equivalent to the power detach key.  If no session can  be  detached,
+            this option is ignored. In combination with the -r/-R option more powerful effects can be achieved:
+
+       -d -r   Reattach a session and if necessary detach it first.
+
+       -d -R   Reattach a session and if necessary detach or even create it first.
+
+       -d -RR  Reattach  a  session  and  if  necessary  detach or create it. Use the first session if more than one session is
+               available.
+
+       -D -r   Reattach a session. If necessary detach and logout remotely first.
+
+       -D -R   Attach here and now. In detail this means: If a session is running, then reattach. If necessary detach  and  lo
+               gout remotely first.  If it was not running create it and notify the user. This is the author's favorite.
+
+       -D -RR  Attach here and now. Whatever that means, just do it.
+
+            Note: It is always a good idea to check the status of your sessions by means of screen -list.
+
+       -e xy
+            specifies  the  command character to be x and the character generating a literal command character to y (when typed
+            after the command character).  The default is C-a and `a', which can be specified as -e^Aa.  When creating a screen
+            session, this option sets the default command character. In a multiuser session all users added will start off with
+ Manual page screen(1) line 68 (press h for help or q to quit)
+eltex-pg1-v11@eltex-2026-autumn:~$ screen -h
+Use: screen [-opts] [cmd [args]]
+ or: screen -r [host.tty]
+
+Options:
+-4            Resolve hostnames only to IPv4 addresses.
+-6            Resolve hostnames only to IPv6 addresses.
+-a            Force all capabilities into each window's termcap.
+-A -[r|R]     Adapt all windows to the new display width & height.
+-c file       Read configuration file instead of '.screenrc'.
+-d (-r)       Detach the elsewhere running screen (and reattach here).
+-dmS name     Start as daemon: Screen session in detached mode.
+-D (-r)       Detach and logout remote (and reattach here).
+-D -RR        Do whatever is needed to get a screen session.
+-e xy         Change command characters.
+-f            Flow control on, -fn = off, -fa = auto.
+-h lines      Set the size of the scrollback history buffer.
+-i            Interrupt output sooner when flow control is on.
+-l            Login mode on (update /var/run/utmp), -ln = off.
+-ls [match]   or
+-list         Do nothing, just list our SockDir [on possible matches].
+-L            Turn on output logging.
+-Logfile file Set logfile name.
+-m            ignore $STY variable, do create a new screen session.
+-O            Choose optimal output rather than exact vt100 emulation.
+-p window     Preselect the named window if it exists.
+-q            Quiet startup. Exits with non-zero return code if unsuccessful.
+-Q            Commands will send the response to the stdout of the querying process.
+-r [session]  Reattach to a detached screen process.
+-R            Reattach if possible, otherwise start a new session.
+-s shell      Shell to execute rather than $SHELL.
+-S sockname   Name this session <pid>.sockname instead of <pid>.<tty>.<host>.
+-t title      Set title. (window's name).
+-T term       Use term as $TERM for windows, rather than "screen".
+-U            Tell screen to use UTF-8 encoding.
+-v            Print "Screen version 4.09.00 (GNU) 30-Jan-22".
+-wipe [match] Do nothing, just clean up SockDir [on possible matches].
+-x            Attach to a not detached screen. (Multi display mode).
+-X            Execute <cmd> as a screen command in the specified session.
+eltex-pg1-v11@eltex-2026-autumn:~$ screen -hman -Lru screenclearpwdcat  eltex-pg1-v11_part.loglearat  eltex-pg1-v11_part.log3_gt20M.log.loglscat  eltex-pg1-v11_part.loglsogoutscat  eltex-pg1-v11_part.loglscat  eltex-pg1-v11_part3.log_gt20M.log.loglearat  eltex-pg1-v11_part.logpwdclearman -Lru screenscreen -hUsing username "eltex-pg1-v11".
+eltex-pg1-v11@217.71.138.1's password: 
+Linux eltex-2026-autumn 6.1.0-53-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.187-1 (2026-09-07) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Oct 22 22:03:30 2026 from 5.44.168.252
+eltex-pg1-v11@eltex-2026-autumn:~$ clear
+eltex-pg1-v11@eltex-2026-autumn:~$ screen  -d - m
+eltex-pg1-v11@eltex-2026-autumn:~$ screen -ls
+There is a screen on:
+27675..eltex-2026-autumn(10/23/2026 02:10:32 PM)(Detached)
+1 Socket in /run/screen/S-eltex-pg1-v11.
+eltex-pg1-v11@eltex-2026-autumn:~$ w
+ 14:10:52 up 4 days, 13:55,  6 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+eltex-pg pts/2    217.71.131.234   13:00    4.00s  0.03s   ?    screen -L -Logfile practice3_eltex-pg1-v7_part2.log -S practice3
+eltex-pg pts/3    5.44.168.252     14:08    0.00s  0.00s   ?    w
+eltex-pg pts/4    31.57.26.72      13:32   23.00s  0.30s  0.29s ssh root@172.16.9.214
+eltex-pg pts/5    :pts/2:S.0       14:08    4.00s  0.12s  0.12s ssh root@172.16.9.181
+tech     pts/11   37.193.179.176   Thu16   21:52m  0.02s  0.03s sshd: tech [priv]
+eltex-pg pts/25   :pts/24:S.0      Mon18    3days  0.00s   ?    /usr/bin/bash
+eltex-pg1-v11@eltex-2026-autumn:~$ wscreen -lsr27675..eltex-2026-autumn27675..eltex-2026-autumn 27675..eltex-2026-autumn
+eltex-pg1-v11@eltex-2026-autumn:~$ eltex-pg1-v11@eltex-2026-autumn:~$ exit
+exit
+
+[screen is terminating]
+eltex-pg1-v11@eltex-2026-autumn:~$ screen -r 27675..eltex-2026-autumnwscreen -ls
+No Sockets found in /run/screen/S-eltex-pg1-v11.
+
+eltex-pg1-v11@eltex-2026-autumn:~$ clear
+eltex-pg1-v11@eltex-2026-autumn:~$ screen 
+
+GNU Screen version 4.09.00 (GNU) 30-Jan-22
+
+Copyright (c) 2018-2020 Alexander Naumov, Amadeusz Slawinski
+Copyright (c) 2015-2017 Juergen Weigert, Alexander Naumov, Amadeusz Slawinski
+Copyright (c) 2010-2014 Juergen Weigert, Sadrul Habib Chowdhury
+Copyright (c) 2008-2009 Juergen Weigert, Michael Schroeder, Micah Cowan, Sadrul Habib Chowdhury
+Copyright (c) 1993-2007 Juergen Weigert, Michael Schroeder
+Copyright (c) 1987 Oliver Laumann
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 3, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program (see the file COPYING); if not, see
+https://www.gnu.org/licenses/, or contact Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02111-1301
+ USA.
+
+Send bugreports, fixes, enhancements, t-shirts, money, beer & pizza to screen-devel@gnu.org
+
+
+Capabilities:
++copy +remote-detach +power-detach +multi-attach +multi-user +font +color-256 +utf8 +rxvt +builtin-telnet[Press Space or Return to end.]
+eltex-pg1-v11@eltex-2026-autumn:~$ screen -ls
+There is a screen on:
+27689.pts-3.eltex-2026-autumn   (10/23/2026 02:12:33 PM)(Attached)
+1 Socket in /run/screen/S-eltex-pg1-v11.
+eltex-pg1-v11@eltex-2026-autumn:~$ clear
+eltex-pg1-v11@eltex-2026-autumn:~$ w
+ 14:12:57 up 4 days, 13:57,  7 users,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+eltex-pg pts/2    217.71.131.234   13:00    7.00s  0.03s   ?    screen -L -Logfile practice3_eltex-pg1-v7_part2.log -S practice3
+eltex-pg pts/3    5.44.168.252     14:08    1.00s  0.01s   ?    screen
+eltex-pg pts/4    31.57.26.72      13:32    1.00s  0.30s  0.29s ssh root@172.16.9.214
+eltex-pg pts/5    :pts/2:S.0       14:08    7.00s  0.16s  0.16s ssh root@172.16.9.181
+eltex-pg pts/9    :pts/3:S.0       14:12    1.00s  0.00s   ?    w
+tech     pts/11   37.193.179.176   Thu16   21:54m  0.02s  0.03s sshd: tech [priv]
+eltex-pg pts/25   :pts/24:S.0      Mon18    3days  0.00s   ?    /usr/bin/bash
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+[detached from 27689.pts-3.eltex-2026-autumn]
+eltex-pg1-v11@eltex-2026-autumn:~$ 
+rm -f ~/"${USER}_part.log"rm -f ~/"${USER}_part.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ screen -sSscreen -S "$(whoami)_part2"screen -S "$(whoami)_part2"
+eltex-pg1-v11@eltex-2026-autumn:~$ screen -ls
+There are screens on:
+27704.eltex-pg1-v11_part2(10/23/2026 02:19:08 PM)(Attached)
+27689.pts-3.eltex-2026-autumn   (10/23/2026 02:12:32 PM)(Detached)
+2 Sockets in /run/screen/S-eltex-pg1-v11.
+eltex-pg1-v11@eltex-2026-autumn:~$ screen -X -Sscreen -X -S 27689.pts-3.eltex-2026-autumn27689.pts-3.eltex-2026-autumn quitquit
+eltex-pg1-v11@eltex-2026-autumn:~$ screen -ls
+There is a screen on:
+27704.eltex-pg1-v11_part2(10/23/2026 02:19:08 PM)(Attached)
+1 Socket in /run/screen/S-eltex-pg1-v11.
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  D1                             eltex-pg1-v11_part3.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  eltex-pg1-v11_part3_gt20M.log  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ clear
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  D1                             eltex-pg1-v11_part3.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  eltex-pg1-v11_part3_gt20M.log  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ lsclearlsclearls
+eltex-pg1-v11@eltex-2026-autumn:~$ rm -f ~/rm -f ~/2026-012026-01 ~/2026-~/2026-02 ~/2026-~/2026-03~/2026-~/20263 ~/2026-~/2026-04 ~/2026-~/2026-05 ~/2026-~/2026-06 0~/2026-~/2026-07 ~/2026-~/2026-078 ~/2026-~/2026-09~/2026-pg1-v11@eltex-2026-autumn:~$ rm -f ~/2026-01 ~/2026-02 ~/2026-03 ~/2026-04 ~/2026-05 ~/2026-06 ~/2026-07 ~/2026-08 ~/2026-09~/2026eltex-pg1-v11@eltex-2026-autumn:~$ rm -f ~/2026-01 ~/2026-02 ~/2026-03 ~/2026-04 ~/2026-05 ~/2026-06 ~/2026-07 ~/2026-08 ~/2026-09
+eltex-pg1-v11@eltex-2026-autumn:~$ rm -f ~/2026-01 ~/2026-02 ~/2026-03 ~/2026-04 ~/2026-05 ~/2026-06 ~/2026-07 ~/2026-08 ~/2026-09  ~/2026-~/2026-10 ~/2026-~/2026-11 ~/2026-~/2026-12
+rm: cannot remove '/home/eltex-pg1-v11/2026-01': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-02': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-03': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-04': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-05': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-06': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-07': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-08': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-09': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-10': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-11': Is a directory
+rm: cannot remove '/home/eltex-pg1-v11/2026-12': Is a directory
+eltex-pg1-v11@eltex-2026-autumn:~$ 1rm -f ~/2026-01 ~/2026-02 ~/2026-03 ~/2026-04 ~/2026-05 ~/2026-06 ~/2026-07 ~/2026-08 ~/2026-09 ~/2026-10 ~/2026-11 ~/2026-12eltex-pg1-v11@eltex-2026-autumn:~$ rm -f ~/2026-01 ~/2026-02 ~/2026-03 ~/2026-04 ~/2026-05 ~/2026-06 ~/2026-07 ~/2026-08 ~/2026-09  -f ~/2026-01 ~/2026-02 ~/2026-03 ~/2026-04 ~/2026-05 ~/2026-06 ~/2026-07 ~/2026-08 ~/2026-09 ~tex-pg1-v11@eltex-2026-autumn:~$ rm - -f ~/2026-01 ~/2026-02 ~/2026-03 ~/2026-04 ~/2026-05 ~/2026-06 ~/2026-07 ~/2026-08 ~/2026-09 tex-pg1-v11@eltex-2026-autumn:~$ rm -r -f ~/2026-01 ~/2026-02 ~/2026-03 ~/2026-04 ~/2026-05 ~/2026-06 ~/2026-07 ~/2026-08 ~/2026-09tex-pg1-v11@eltex-2026-autumn:~$ rm -rf -f ~/2026-01 ~/2026-02 ~/2026-03 ~/2026-04 ~/2026-05 ~/2026-06 ~/2026-07 ~/2026-08 ~/2026-0tex-pg1-v11@eltex-2026-autumn:~$ rm -rf
+
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+D1  eltex-pg1-v11_part3_gt20M.log  eltex-pg1-v11_part3.log  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ rnm -rf -f  ~/2026-~/2026D1
+eltex-pg1-v11@eltex-2026-autumn:~$ rm -rf -f ~/D1lsrm -rf -f ~/2026-01 ~/2026-02 ~/2026-03 ~/2026-04 ~/2026-05 ~/2026-06 ~/2026-07 ~/2026-08 ~/2026-09 ~/2026-10 ~/2026-11 ~/2026-12$ ls
+eltex-pg1-v11@eltex-2026-autumn:~$ lsrm -rf -f ~/D1-rf -f ~/D1eltex-pg1-v11_part3_gt20M.logeltex-pg1-v11_part3_gt20M.log ~/eltex-pg1-v11_part3.logeltex-pg1-v11_part3.log
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ clear
+eltex-pg1-v11@eltex-2026-autumn:~$ export TERM=dumbexport TERM=dumb
+eltex-pg1-v11@eltex-2026-autumn:~$ script -q "${USER}_part.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+ls           lsblk        lscpu        lsinitramfs  lsirq        lslogins     lsmod        lsof         lsusb
+lsattr       lsb_release  lsfd         lsipc        lslocks      lsmem        lsns         lspci        
+eltex-pg1-v11@eltex-2026-autumn:~$ ls  $HIST
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE      
+eltex-pg1-v11@eltex-2026-autumn:~$ $HIST    HISTFILESIZE
+bash: 2000: command not found
+eltex-pg1-v11@eltex-2026-autumn:~$ echo $HISTFILESIZE
+2000
+eltex-pg1-v11@eltex-2026-autumn:~$ ls -d ~/.*
+/home/eltex-pg1-v11/.bash_history  /home/eltex-pg1-v11/.bashrc  /home/eltex-pg1-v11/.lesshst  /home/eltex-pg1-v11/.viminfo
+/home/eltex-pg1-v11/.bash_logout   /home/eltex-pg1-v11/.config  /home/eltex-pg1-v11/.profile
+eltex-pg1-v11@eltex-2026-autumn:~$ export HISTTIMEFORMAT="%F %T "
+eltex-pg1-v11@eltex-2026-autumn:~$ history 5
+  218  2026-10-23 14:27:52 $HISTFILESIZE
+  219  2026-10-23 14:28:03 echo $HISTFILESIZE
+  220  2026-10-23 14:28:19 ls -d ~/.*
+  221  2026-10-23 14:28:47 export HISTTIMEFORMAT="%F %T "
+  222  2026-10-23 14:28:55 history 5
+eltex-pg1-v11@eltex-2026-autumn:~$ date
+Fri Oct 23 02:29:20 PM +07 2026
+eltex-pg1-v11@eltex-2026-autumn:~$ history | tail -n 2
+  223  2026-10-23 14:29:20 date
+  224  2026-10-23 14:29:47 history | tail -n 2
+eltex-pg1-v11@eltex-2026-autumn:~$ tail -n 2 ~/.bash_history
+clear
+w
+eltex-pg1-v11@eltex-2026-autumn:~$ export PROMPT_COMMAND="history -a"
+eltex-pg1-v11@eltex-2026-autumn:~$ date
+Fri Oct 23 02:31:01 PM +07 2026
+eltex-pg1-v11@eltex-2026-autumn:~$ history | tail -n 5
+  224  2026-10-23 14:29:47 history | tail -n 2
+  225  2026-10-23 14:30:05 tail -n 2 ~/.bash_history
+  226  2026-10-23 14:30:37 export PROMPT_COMMAND="history -a"
+  227  2026-10-23 14:31:01 date
+  228  2026-10-23 14:31:15 history | tail -n 5
+eltex-pg1-v11@eltex-2026-autumn:~$ tail -n 2 ~/.bash_history
+#1792740675
+history | tail -n 5
+eltex-pg1-v11@eltex-2026-autumn:~$ tail -n 2 ~/.bash_history ~/.bash_history 5 ~/.bash_history
+date
+#1792740675
+history | tail -n 5
+#1792740694
+tail -n 2 ~/.bash_history
+eltex-pg1-v11@eltex-2026-autumn:~$ DATE=$(date +%F)
+eltex-pg1-v11@eltex-2026-autumn:~$ echo "$DATE"
+2026-10-23
+eltex-pg1-v11@eltex-2026-autumn:~$ TIME=$(date +%T)
+eltex-pg1-v11@eltex-2026-autumn:~$ echo "$TIME"
+14:34:29
+eltex-pg1-v11@eltex-2026-autumn:~$ DATE_TIME="$DATE $TIME"
+eltex-pg1-v11@eltex-2026-autumn:~$ echo "$DATE_TIME"
+2026-10-23 14:34:29
+eltex-pg1-v11@eltex-2026-autumn:~$ ls -d /bin/*[0-9]* /sbin/*[0-9]*
+/bin/addr2line  /bin/pod2usage       /bin/x86_64-linux-gnu-gp-archive
+/bin/b2sum/bin/py3clean        /bin/x86_64-linux-gnu-gp-collect-app
+/bin/base32/bin/py3compile      /bin/x86_64-linux-gnu-gp-display-html
+/bin/base64/bin/py3versions     /bin/x86_64-linux-gnu-gp-display-src
+/bin/bunzip2/bin/pydoc3     /bin/x86_64-linux-gnu-gp-display-text
+/bin/bzip2/bin/pydoc3.11       /bin/x86_64-linux-gnu-gprof
+/bin/bzip2recover/bin/pygettext3      /bin/x86_64-linux-gnu-gprofng
+/bin/c89/bin/pygettext3.11     /bin/x86_64-linux-gnu-ld
+/bin/c89-gcc/bin/python3     /bin/x86_64-linux-gnu-ld.bfd
+/bin/c99/bin/python3.11      /bin/x86_64-linux-gnu-ld.gold
+/bin/c99-gcc/bin/sha1sum     /bin/x86_64-linux-gnu-lto-dump
+/bin/cpan5.36-x86_64-linux-gnu  /bin/sha224sum       /bin/x86_64-linux-gnu-lto-dump-12
+/bin/cpp-12/bin/sha256sum       /bin/x86_64-linux-gnu-nm
+/bin/diff3/bin/sha384sum       /bin/x86_64-linux-gnu-objcopy
+/bin/enc2xs/bin/sha512sum       /bin/x86_64-linux-gnu-objdump
+/bin/gcc-12/bin/ssh-argv0       /bin/x86_64-linux-gnu-ranlib
+/bin/gcc-ar-12  /bin/systemd-id128     /bin/x86_64-linux-gnu-readelf
+/bin/gcc-nm-12  /bin/traceroute6     /bin/x86_64-linux-gnu-size
+/bin/gcc-ranlib-12/bin/traceroute6.db     /bin/x86_64-linux-gnu-strings
+/bin/gcov-12/bin/x86_64     /bin/x86_64-linux-gnu-strip
+/bin/gcov-dump-12/bin/x86_64-linux-gnu-addr2line      /sbin/dumpe2fs
+/bin/gcov-tool-12/bin/x86_64-linux-gnu-ar     /sbin/e2freefrag
+/bin/grub-menulst2cfg   /bin/x86_64-linux-gnu-as     /sbin/e2fsck
+/bin/grub-mkpasswd-pbkdf2/bin/x86_64-linux-gnu-c++filt        /sbin/e2image
+/bin/grub-syslinux2cfg  /bin/x86_64-linux-gnu-cpp     /sbin/e2label
+/bin/h2ph/bin/x86_64-linux-gnu-cpp-12     /sbin/e2mmpstatus
+/bin/h2xs/bin/x86_64-linux-gnu-dwp     /sbin/e2scrub
+/bin/i386/bin/x86_64-linux-gnu-elfedit        /sbin/e2scrub_all
+/bin/linux32/bin/x86_64-linux-gnu-gcc     /sbin/e2undo
+/bin/linux64/bin/x86_64-linux-gnu-gcc-12     /sbin/e4crypt
+/bin/lto-dump-12/bin/x86_64-linux-gnu-gcc-ar     /sbin/e4defrag
+/bin/md5sum/bin/x86_64-linux-gnu-gcc-ar-12      /sbin/fsck.ext2
+/bin/md5sum.textutils   /bin/x86_64-linux-gnu-gcc-nm     /sbin/fsck.ext3
+/bin/pdb3/bin/x86_64-linux-gnu-gcc-nm-12      /sbin/fsck.ext4
+/bin/pdb3.11/bin/x86_64-linux-gnu-gcc-ranlib     /sbin/killall5
+/bin/perl5.36.0 /bin/x86_64-linux-gnu-gcc-ranlib-12  /sbin/mke2fs
+/bin/perl5.36-x86_64-linux-gnu  /bin/x86_64-linux-gnu-gcov     /sbin/mkfs.ext2
+/bin/ping4/bin/x86_64-linux-gnu-gcov-12        /sbin/mkfs.ext3
+/bin/ping6/bin/x86_64-linux-gnu-gcov-dump      /sbin/mkfs.ext4
+/bin/pl2pm/bin/x86_64-linux-gnu-gcov-dump-12   /sbin/resize2fs
+/bin/pod2html   /bin/x86_64-linux-gnu-gcov-tool      /sbin/tune2fs
+/bin/pod2man/bin/x86_64-linux-gnu-gcov-tool-12   /sbin/update-grub2
+/bin/pod2text   /bin/x86_64-linux-gnu-gold
+eltex-pg1-v11@eltex-2026-autumn:~$ PS1='$USER@$HOSTNAME-$(date +%H:%M)> '
+eltex-pg1-v11@eltex-2026-autumn-14:36> export PS1
+eltex-pg1-v11@eltex-2026-autumn-14:36> bash --norc
+eltex-pg1-v11@eltex-2026-autumn-14:36> exit
+exit
+eltex-pg1-v11@eltex-2026-autumn-14:37> mkdir -p ~/"$(date +%Y)"-{01..12}
+eltex-pg1-v11@eltex-2026-autumn-14:37> ls
+2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  eltex-pg1-v11_part.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn-14:38> exit
+exit
+eltex-pg1-v11@eltex-2026-autumn:~$ exit
+exit
+
+[screen is terminating]
+eltex-pg1-v11@eltex-2026-autumn:~$ grep -P '[\x07\x08]' ~/"${USER}_part.log"grep -P '[\x07\x08]' ~/"${USER}_part.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+eltex-pg1-v11@eltex-2026-autumn:~$ ls  $HIST
+eltex-pg1-v11@eltex-2026-autumn:~$ $HIST    HISTFILESIZE
+eltex-pg1-v11@eltex-2026-autumn:~$ tail -n 2 ~/.bash_history ~/.bash_history 5 ~/.bash_history
+eltex-pg1-v11@eltex-2026-autumn:~$ pwd
+/home/eltex-pg1-v11
+eltex-pg1-v11@eltex-2026-autumn:~$ Cclear
+eltex-pg1-v11@eltex-2026-autumn:~$ ^[[200~touch "${USER}_part3.log"~touch "${USER}_part3.log"touch "${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ echo 'cd ~' >> "${USER}_part3.log"echo 'cd ~' >> "${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ echo 'cd ~' >> "${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ echo 'touch "${USER}_part3.log"' >> "${USER}_part3.log"echo 'touch "${USER}_part3.log"' >> "${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ mkdir -p D1/D2/D3mkdir -p D1/D2/D3
+eltex-pg1-v11@eltex-2026-autumn:~$ echo 'mkdir -p D1/D2/D3' >> "${USER}_part3.log"echo 'mkdir -p D1/D2/D3' >> "${USER}_part3.log"
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+2026-01  2026-03  2026-05  2026-07  2026-09  2026-11  D1                       eltex-pg1-v11_part.log
+2026-02  2026-04  2026-06  2026-08  2026-10  2026-12  eltex-pg1-v11_part3.log  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ lsecho 'mkdir -p D1/D2/D3' >> "${USER}_part3.log"ls
+eltex-pg1-v11@eltex-2026-autumn:~$ echo 'ls' >> "${USER}_part3.log"@$()
+eltex-pg1-v11@eltex-2026-autumn:~$ echo '$(ls)' >> "${USER}_part3.log"@""
+eltex-pg1-v11@eltex-2026-autumn:~$ echo "$(ls)" >> "${USER}_part3.log"'$(ls)'lslsecho 'mkdir -p D1/D2/D3' >> "${USER}_part3.log"lsecho 'ls' >> "${USER}_part3.log"$(ls)"$(ls)"
+
+^[[200~touch D1/D2/file.txt~touch D1/D2/file.txttouch D1/D2/file.txt ??&&echo "$(ls)" >> "${USER}_part3.log"echo "$(ls)" >> "${USER}_part3.log echo "$()" >> "${USER}_part3.log"echo "$()" >> "${USER}_part3.log"touch D1/D2/file.txttouch D1/D2/file.txt&&  echo '' >> "${USER}_part3.log"
+ && echo "$(touch D1/D2/file.txt)" >> "${USER}_part3.log"echo '' >> "${USER}_part3.log" && echo "$(touch D1/D2/file.txt)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ touch D1/D2/file.txt' >> "${USER}_part3.log" && echo "$(touch D1/D2/file.txt)" >> "${USER}_part3.log"touch D1/D2/file.txt
+
+eltex-pg1-v11@eltex-2026-autumn:~$ echo "      " > D1/D2/file.txtecho "      " > D1/D2/file.txt ^[[200~&& echo '' >> "${USER}_part3.log" && echo "$()" >> ~
+ && echo '' >> "${USER}_part3.log" && echo "$()" >> eltex-pg1-v11@eltex-2026-autumn:~$ && echo '' >> "${USER}_part3.log" && echo "$()" >>  
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log" echo "      " > D1/D2/file.txt' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log" echo "      " > D1/D2/file.txt echo "      " > D1/D2/file.txt)" >> "${USER}_part3.log" echo "      " > D1/D2/file.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ ln D1/D2/file.txt D1/D2/D3/hard_link.txtln D1/D2/file.txt D1/D2/D3/hard_link.txt ^V && echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"ln D1/D2/file.txt D1/D2/D3/hard_link.txt' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"ln D1/D2/file.txt D1/D2/D3/hard_link.txt
+ln D1/D2/file.txt D1/D2/D3/hard_link.txtln D1/D2/file.txt D1/D2/D3/hard_link.txt
+ln: failed to create hard link 'D1/D2/D3/hard_link.txt': File exists
+eltex-pg1-v11@eltex-2026-autumn:~$ 1ln D1/D2/file.txt D1/D2/D3/hard_link.txt && echo 'ln D1/D2/file.txt D1/D2/D3/hard_link.txt' >> "${USER}_part3.log" && echo "$(ln D1/D2/file.txt D1/D2/D3/hard_link.txt)" >> "${USER}_part3.log"ln -s ../file.txt D1/D2/D3/sym_link.txtln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${Ueltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USeltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USEeltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USEReltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_peltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_paeltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_pareltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_parteltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.leltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.loeltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.logeltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" &eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" &&eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && eeltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && eceltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echeltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echoeltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(leltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(lneltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(ln eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(ln -eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(ln -seltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(ln -s eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(ln -s .eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(ln -s ..eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(ln -s ../eltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(ln -s ../feltex-pg1-v11@eltex-2026-autumn:~$ ' >> "${USER}_part3.log" && echo "$(ln -s ../fieltex-pg1-v11@eltex-2026-autumn:~$ ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -s ../filn -s ../file.txt D1/D2/D3/sym_link.txt && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${Ueltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USeltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USEeltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USEReltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_peltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_paeltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_pareltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_parteltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.leltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.loeltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.logeltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" &eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" &&eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && eeltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && eceltex-pg1-v11@eltex-2026-autumn:~$ && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echeltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echoeltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(leltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(lneltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -seltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -s eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -s .eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -s ..eltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -s ../eltex-pg1-v11@eltex-2026-autumn:~$ && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -s ../feltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -s ../fieltex-pg1-v11@eltex-2026-autumn:~$  && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -s ../fileltex-pg1-v11@eltex-2026-autumn:~$ ln -s ../file.txt D1/D2/D3/sym_link.txt && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -s ../filln -s ../file.txt D1/D2/D3/sym_link.txt
+
+ln: failed to create symbolic link 'D1/D2/D3/sym_link.txt': File exists
+eltex-pg1-v11@eltex-2026-autumn:~$ ln -s ../file.txt D1/D2/D3/sym_link.txt && echo 'ln -s ../file.txt D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(ln -s ../file.txt D1/D2/D3/sym_link.txt)" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"ls -li D1/D2/file.txt D1/D2/D3/)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ ls -li D1/D2/file.txt D1/D2/D3/ls -li D1/D2/file.txt D1/D2/D3/' >> "${USER}_part3.log" && echo "$(ls -li D1/D2/file.txt D1/D2/D3/)" >> "${USER}_part3.log"ls -li D1/D2/file.txt D1/D2/D3/ls -li D1/D2/file.txt D1/D2/D3/&& echo 'ls -li D1/D2/file.txt D1/D2/D3/' >> "${USER}_part3.log" && echo "$(ls -li D1/D2/file.txteltex-pg1-v11@eltex-2026-autumn:~$ ls -li D1/D2/file.txt D1/D2/D3/ && echo 'ls -li D1/D2/file.txt D1/D2/D3/' >> "${USER}_part3.log" &eltex-pg1-v11@eltex-2026-autumn:~$ 
+
+131281 -rw-r--r-- 2 eltex-pg1-v11 eltex-pg1-v11   93 Oct 23 15:29 D1/D2/file.txt
+
+D1/D2/D3/:
+total 4
+131281 -rw-r--r-- 2 eltex-pg1-v11 eltex-pg1-v11 93 Oct 23 15:29 hard_link.txt
+131283 lrwxrwxrwx 1 eltex-pg1-v11 eltex-pg1-v11 11 Oct 23 15:30 sym_link.txt -> ../file.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ && echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"mv D1/D2/file.txt D1/mv D1/D2/file.txt D1/mv D1/D2/file.txt D1/' >> "${USER}_part3.log" && echo "$(mv D1/D2/file.txt D1/)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ mv D1/D2/file.txt D1/mv D1/D2/file.txt D1/&& echo 'mv D1/D2/file.txt D1/' >> "${USER}_part3.log" && echo "$(mv D1/D2/file.txt D1/)" >> "${USER}_part3.log"mv D1/D2/file.txt D1/ && echo 'mv D1/D2/file.txt D1/' >> "${USER}_part3.log" && echo "$(mv D1/D2/feltex-pg1-v11@eltex-2026-autumn:~$ 
+
+mv: cannot stat 'D1/D2/file.txt': No such file or directory
+eltex-pg1-v11@eltex-2026-autumn:~$ && echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"cat D1/D2/D3/hard_link.txtcat D1/D2/D3/hard_link.txtcat D1/D2/D3/hard_link.txt' >> "${USER}_part3.log" && echo "$(cat D1/D2/D3/hard_link.txt)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/hard_link.txtcat D1/D2/D3/hard_link.txt&& echo 'cat D1/D2/D3/hard_link.txt' >> "${USER}_part3.log" && echo "$(cat D1/D2/D3/hard_link.txteltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/hard_link.txt && echo 'cat D1/D2/D3/hard_link.txt' >> "${USER}_part3.log" && echo "$(eltex-pg1-v11@eltex-2026-autumn:~$ 
+
+      
+eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/hard_link.txt && echo 'cat D1/D2/D3/hard_link.txt' >> "${USER}_part3.log" && echo "$(cat D1/D2/D3/hard_link.txt)" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"cat D1/D2/D3/sym_link.txtcat D1/D2/D3/sym_link.txtcat D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(cat D1/D2/D3/sym_link.txt)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/sym_link.txtcat D1/D2/D3/sym_link.txt&& echo 'cat D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(cat D1/D2/D3/sym_link.txt)"eltex-pg1-v11@eltex-2026-autumn:~$ cat D1/D2/D3/sym_link.txt && echo 'cat D1/D2/D3/sym_link.txt' >> "${USER}_part3.log" && echo "$(caeltex-pg1-v11@eltex-2026-autumn:~$ 
+
+cat: D1/D2/D3/sym_link.txt: No such file or directory
+eltex-pg1-v11@eltex-2026-autumn:~$ && echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"rm -rf D1/D2rm -rf D1/D2rm -rf D1/D2rm -rf D1/D2rm -rf D1/D2&& echo 'rm -rf D1/D2' >> "${USER}_part3.log" && echo "$(rm -rf D1/D2)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ rm -rf D1/D2 && echo 'rm -rf D1/D2' >> "${USER}_part3.log" && echo "$(rm -rf D1/D2)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ 
+
+eltex-pg1-v11@eltex-2026-autumn:~$ && echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log")" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"' >> "${USER}_part3.log" && echo "$(find / -type f -size +20M 2>/dev/null > "${USER}_parfind / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"&& echo 'find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"' >> "${USER}_part3.log" && echo "$(find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log")" >> "${USER}_part3.log"find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log" && echo 'find / -type f -size +20M 2>/dev/null > "${USER}_part3_gt20M.log"' >> "${USER}_part3.log" && echo "$(find / -type f -size +20M 2>/dev/null > "${USER}_parteltex-pg1-v11@eltex-2026-autumn:~$ 
+
+
+eltex-pg1-v11@eltex-2026-autumn:~$ && echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"xargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/null)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ xargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/nullxargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/null' >> "${USER}_part3.log" && echo "$(xargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/nullxargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/null && echo 'xargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/null' >> "${USER}_part3.log" && echo "$(eltex-pg1-v11@eltex-2026-autumn:~$ xargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/null && echo 'xargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/null' >> "${USER}_part3.log" && echo "$xargs -a "${USER}_part3_gt20M.log" du -h 2>/dev/null
+
+
+31M/usr/bin/x86_64-linux-gnu-lto-dump-12
+31M/usr/lib/gcc/x86_64-linux-gnu/12/lto1
+32M/usr/lib/gcc/x86_64-linux-gnu/12/cc1
+30M/usr/lib/x86_64-linux-gnu/libicudata.so.72.1
+0/proc/kcore
+33M/boot/initrd.img-6.1.0-44-amd64
+33M/boot/initrd.img-6.1.0-50-amd64
+33M/boot/initrd.img-6.1.0-53-amd64
+41M/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@4f44ef78d53d4cd0a5555898b8d0015b-0000000000179b0c-000659e0105337c7.journal
+25M/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065be42e22b64e-29e46ef12bfd5644.journal~
+33M/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065b6e0461a953-e594878e03ffcfa9.journal~
+25M/var/log/journal/8247b53b6ae84ae0ad9bb1c96113fd29/system@00065c4bf168df91-94a074e01b8fde49.journal~
+39M/var/cache/apt/srcpkgcache.bin
+39M/var/cache/apt/pkgcache.bin
+48M/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_binary-amd64_Packages
+49M/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_source_Sources
+32M/var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_main_i18n_Translation-en
+eltex-pg1-v11@eltex-2026-autumn:~$ && echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"find ~ -type f -mmin -1440find ~ -type f -mmin -1440find ~ -type f -mmin -1440' >> "${USER}_part3.log" && echo "$(find ~ -type f -mmin -1440)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ find ~ -type f -mmin -1440find ~ -type f -mmin -1440&& echo 'find ~ -type f -mmin -1440' >> "${USER}_part3.log" && echo "$(find ~ -type f -mmin -1440eltex-pg1-v11@eltex-2026-autumn:~$ find ~ -type f -mmin -1440 && echo 'find ~ -type f -mmin -1440' >> "${USER}_part3.log" && echo "$(eltex-pg1-v11@eltex-2026-autumn:~$ 
+
+/home/eltex-pg1-v11/eltex-pg1-v11_part3.log
+/home/eltex-pg1-v11/.ssh/authorized_keys
+/home/eltex-pg1-v11/eltex-pg1-v11_part.log
+/home/eltex-pg1-v11/.lesshst
+/home/eltex-pg1-v11/D1/file.txt
+/home/eltex-pg1-v11/eltex-pg1-v11_part3_gt20M.log
+/home/eltex-pg1-v11/.bash_history
+/home/eltex-pg1-v11/.Xauthority
+eltex-pg1-v11@eltex-2026-autumn:~$ && echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"which findwhich findwhich findwhich findwhich find&& echo 'which find' >> "${USER}_part3.log" && echo "$(which find)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ which find && echo 'which find' >> "${USER}_part3.log" && echo "$(which find)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ 
+
+/usr/bin/find
+eltex-pg1-v11@eltex-2026-autumn:~$ which find && echo 'which find' >> "${USER}_part3.log" && echo "$(which find)" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ 
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"file $(which find)file $(which find)file $(which find)' >> "${USER}_part3.log" && echo "$(file $(which find))" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find)file $(which find)&& echo 'file $(which find)' >> "${USER}_part3.log" && echo "$(file $(which find))" >> "${USER}_part3.log"eltex-pg1-v11@eltex-2026-autumn:~$ file $(which find) && echo 'file $(which find)' >> "${USER}_part3.log" && echo "$(file $(which fineltex-pg1-v11@eltex-2026-autumn:~$ 
+
+/usr/bin/find: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=5545a6c7162d325fbe5ffabcbfe4e5521b66ce70, for GNU/Linux 3.2.0, stripped
+eltex-pg1-v11@eltex-2026-autumn:~$ && echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"
+&& echo '' >> "${USER}_part3.log" && echo "$()" >> "${USER}_part3.log"file /boot/initrd.img*file /b
