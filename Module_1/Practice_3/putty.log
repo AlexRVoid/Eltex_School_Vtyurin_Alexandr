@@ -28719,19 +28719,16 @@ root@eltex-practice2-pg1-v11:~/practice3# systemctl status cuckoo.servicesystemc
      Active: inactive (dead)
 
 Oct 23 16:33:00 eltex-practice2-pg1-v11 systemd[1]: Started cuckoo.service - Cuckoo Time Service.
-Oct 23 16:48:05 eltex-practice2-pg1-v11 systemd[1]: Stopping cuckoo.service - Cuckoo Time Using username "eltex-pg1-v11".
-eltex-pg1-v11@217.71.138.1's password: 
-Linux eltex-2026-autumn 6.1.0-53-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.187-1 (2026-09-07) x86_64
-
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
-permitted by applicable law.
-Last login: Fri Oct 23 22:26:08 2026 from 5.44.168.252
-eltex-pg1-v11@eltex-2026-autumn:~$ exitec > >(tee -a "practice2_${MYUSER}_part3.log") 2>&1eltex-pg1-v11@eltex-2026-autumn:~$ port MYUSER="eltex-pg1-v11"
-itclearscript -q "practice2_${MYUSER}_part2.log"export TERM=dumbMYUSER="eltex-pg1-v11"itssh root@172.16.9.185
+Oct 23 16:48:05 eltex-practice2-pg1-v11 systemd[1]: Stopping cuckoo.service - Cuckoo Time Service...
+Oct 23 16:48:05 eltex-practice2-pg1-v11 systemd[1]: cuckoo.service: Deactivated successfully.
+Oct 23 16:48:05 eltex-practice2-pg1-v11 systemd[1]: Stopped cuckoo.service - Cuckoo Time Service.
+root@eltex-practice2-pg1-v11:~/practice3# scp -P 44556 /root/practice3/practice3_report.tar.gz eltex-pg1-v11@217.71.138.1:/home/eltex-pg1-v11/root@eltex-practice2-pg1-v11:~/practice3# scp -P 44556 /root/practice3/practice3_report.tar.gz eltex-pg1-v11@217.71.138.1:/home/eltex-pg1-v11/
+7smDTqFj42MGe
+ssh: connect to host 217.71.138.1 port 44556: Connection timed out
+scp: Connection closed
+root@eltex-practice2-pg1-v11:~/practice3# 7smDTqFj42MGe
+7smDTqFj42MGe: command not found
+root@eltex-practice2-pg1-v11:~/practice3# RM=dumbMYUSER="eltex-pg1-v11"itssh root@172.16.9.185
 Welcome to Ubuntu 24.04.2 LTS (GNU/Linux 6.8.0-147-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
@@ -28796,4 +28793,15 @@ eltex-pg1-v11@eltex-2026-autumn:~$ ls
 2026-05  2026-12                        practice2_eltex-pg1-v11_part3.log
 2026-06  D1                             report_part1.txt
 2026-07  eltex-pg1-v11_part3_gt20M.log
-eltex-pg1-v11@eltex-2026-autumn:~$ scp root@<IP__2>:/root/practice3/practice3_report.tar.gz ~/eltex-pg1-v11@eltex-2026-autumn:~$ scp root@<IP__2>:/root/practice3/practice3_report.tar.gz ~/:/root/practice3/practiceltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practiceeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3eltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_eltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_reltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_reeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_repeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_repoeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_reporeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_reporteltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_rep
+eltex-pg1-v11@eltex-2026-autumn:~$ scp root@<IP__2>:/root/practice3/practice3_report.tar.gz ~/eltex-pg1-v11@eltex-2026-autumn:~$ scp root@<IP__2>:/root/practice3/practice3_report.tar.gz ~/:/root/practice3/practiceltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practiceeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3eltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_eltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_reltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_reeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_repeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_repoeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_reporeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_reporteltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_report.eltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_report.teltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_report.taeltex-pg1-v11@eltex-2026-autumn:~$ :/root/practice3/practice3_report.tareltex-pg1-v11@eltex-2026-autumn:~$ 172.16.9.185:/root/practice3/practice3_report.tareltex-pg1-v11@eltex-2026-autumn:~$ 172.16.9.185:/root/practice3/practiceeltex-pg1-v11@eltex-2026-autumn:~$ 
+
+practice3_report.tar.gz                         0%    0     0.0KB/s   --:-- ETApractice3_report.tar.gz                       100% 2310     2.8MB/s   00:00    
+eltex-pg1-v11@eltex-2026-autumn:~$ ls
+2026-01  2026-08                        eltex-pg1-v11_part3.log
+2026-02  2026-09                        eltex-pg1-v11_part.log
+2026-03  2026-10                        practice2_eltex-pg1-v11_part1.log
+2026-04  2026-11                        practice2_eltex-pg1-v11_part2.log
+2026-05  2026-12                        practice2_eltex-pg1-v11_part3.log
+2026-06  D1                             practice3_report.tar.gz
+2026-07  eltex-pg1-v11_part3_gt20M.log  report_part1.txt
+eltex-pg1-v11@eltex-2026-autumn:~$ 
